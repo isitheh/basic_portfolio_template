@@ -1,0 +1,116 @@
+body {
+   background: #ffffff;
+   font-family: "Nunito", sans-serif;
+}
+
+.blurb h2 {
+   color: #39393a;
+   font-weight: 100;
+   font-size: 2.5rem;   
+}
+
+.blurb p {
+   color: gray;
+   font-weight: 100;
+   font-size: 1.025rem;
+   line-height: 2;
+}
+
+.portfolio_img {
+   width: 100%;
+   height: 300px;
+   border: 3px lightgray solid;
+   border-radius: 2%;
+}
+
+.navbar.scrolled {
+   background: #39393a;	
+   opacity: 0.75;
+   transition: background 500ms;
+}
+
+.smooth-scroll:hover {
+  cursor: pointer;
+}
+
+.contact-link {
+   color: #3b3d3f;
+   transition: all 0.3s;
+}
+
+.contact-link:hover {
+   color: #16bcae;
+}
+
+.footer-link {
+   color: #16bcae;
+   text-decoration: none;
+   transition: all 0.3s;
+}
+
+.footer-link:hover {
+   color: #39393a;
+}
+
+.card:hover {
+   transform: scale(1.02);
+   transition: all 0.15s;
+}
+
+.portfolio_img:hover {
+   transform: scale(1.03);
+   transition: all 0.5s;
+}
+
+#logo {
+	width: 30px;
+	height: 30px;
+   border-radius: 50%;
+}
+
+#hero {
+   background: url("../images/logo.jpg") center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 40rem;
+}
+
+#about img { 
+	width: 300px; 
+	height: 300px;
+	border-radius: 50%;
+}
+
+#mainNavbar {
+   font-size: 1.125rem;
+   font-weight: 75;
+}
+
+#mainNavbar .nav-link {
+   color: lightblue;
+}
+
+#mainNavbar .nav-link:hover {
+   color: lightgreen;
+}
+
+.card-body p,
+.ul-style li {
+   text-align: left;
+}
+
+@media (max-width: 780px) {
+   #hero h1 {
+      font-size: 1.25rem;
+   }
+    
+   #hero p {
+      font-size: 0.85rem;
+   }
+   
+   .portfolio_img {
+      width: 100%;
+      height: 100%;
+   }
+}
+
